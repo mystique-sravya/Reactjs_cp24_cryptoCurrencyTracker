@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+.sub-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #00e7ff;
+  font-size: 35px;
+}
+
+.crypto-image {
+  width: fit-content;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00e7ff33;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.list-coin-type-heading {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.usd-and-euro-values-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-coin-value-heading {
+  text-align: right;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 52px;
+  margin: 0px;
+  margin-right: 48px;
+}
+.list-body {
+  padding-left: 48px;
+  padding-right: 48px;
+}
